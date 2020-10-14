@@ -29,5 +29,3 @@ jobs:
         with:
           script: "reports/dp_script.py"
           token: ${{ secrets.TOKEN }}
-          parameters: ${{ github.event.inputs }}
-
